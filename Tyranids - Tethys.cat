@@ -123,7 +123,16 @@
     <entryLink name="The Red Terror" id="d1a5-352d-83ad-9b58" hidden="false" import="true" targetId="7173-1bd9-b60b-6555" type="selectionEntry"/>
     <entryLink name="Herald of the Mire" id="c28b-3a24-7156-00fd" hidden="false" import="true" targetId="4d6a-db8f-8c72-8657" type="selectionEntry"/>
     <entryLink name="Blackwater Reaper" id="1ca7-9c12-f226-5fc1" hidden="false" import="true" targetId="243e-39e6-a5f7-d63b" type="selectionEntry"/>
-    <entryLink name="The Reawakened Hunger" id="fd0e-27bf-b00d-2eb9" hidden="false" import="true" targetId="a63b-9420-2bbc-9ab3" type="selectionEntry"/>
+    <entryLink name="The Reawakened Hunger" id="fd0e-27bf-b00d-2eb9" hidden="false" import="true" targetId="a63b-9420-2bbc-9ab3" type="selectionEntry">
+      <profiles>
+        <profile name="Invulnerable Save (4+)" id="472f-0c69-45ce-8efb" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <comment>Single model</comment>
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
   </entryLinks>
   <infoLinks>
     <infoLink name="Synapse" id="6d46-599b-97c8-9bb6" hidden="false" targetId="86aa-437f-260b-5cad" type="rule"/>
