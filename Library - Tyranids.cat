@@ -4281,12 +4281,11 @@ You can include up to three of the following unit:
     </selectionEntry>
     <selectionEntry name="Marsh Deceiver" id="faa3-01d6-0d65-6521" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="Infantry" id="fb74-dee1-336c-1aef" primary="true" targetId="cf47-a0d7-7207-29dc"/>
         <categoryLink name="Great Devourer" id="2aa5-96de-9272-8957" primary="false" targetId="7850-cc5a-c191-b80d"/>
         <categoryLink name="Vanguard Invader" id="c51d-5189-123c-c196" primary="false" targetId="5ff0-d52d-e2b8-9de"/>
         <categoryLink name="Faction: Tyranids" id="635a-7f1e-202f-05b6" primary="false" targetId="d1d8-6ae0-1be7-e9e"/>
         <categoryLink name="Synapse" id="2dde-c57f-b9ed-2c5c" primary="false" targetId="4129-a453-686a-d38a"/>
-        <categoryLink name="Character" id="fe88-1fa9-1900-98a1" hidden="false" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+        <categoryLink name="Character" id="fe88-1fa9-1900-98a1" hidden="false" primary="true" targetId="9cfd-1c32-585f-7d5c"/>
         <categoryLink name="Marsh Deceiver" id="48f1-32b3-a1f7-796b" hidden="false" primary="false" targetId="ec19-c8d0-4ab1-c3f5"/>
       </categoryLinks>
       <constraints>
@@ -4522,13 +4521,12 @@ You can include up to three of the following unit:
     </selectionEntry>
     <selectionEntry name="Herald of the Mire" id="4d6a-db8f-8c72-8657" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="Infantry" id="e52f-2658-c977-9b8b" primary="true" targetId="cf47-a0d7-7207-29dc"/>
         <categoryLink name="Great Devourer" id="9277-7f1b-b1f6-c810" primary="false" targetId="7850-cc5a-c191-b80d"/>
         <categoryLink name="Neurolictor" id="3ac8-8874-ea32-c0b8" primary="false" targetId="de12-e6b6-16c1-47b0"/>
         <categoryLink name="Vanguard Invader" id="ae82-ee40-e6f1-830e" primary="false" targetId="5ff0-d52d-e2b8-9de"/>
         <categoryLink name="Faction: Tyranids" id="708d-7b8b-3eab-4b39" primary="false" targetId="d1d8-6ae0-1be7-e9e"/>
         <categoryLink name="Synapse" id="b862-e5b5-80aa-5e7c" primary="false" targetId="4129-a453-686a-d38a"/>
-        <categoryLink name="Character" id="8bbb-9bbd-33f7-0023" hidden="false" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+        <categoryLink name="Character" id="8bbb-9bbd-33f7-0023" hidden="false" primary="true" targetId="9cfd-1c32-585f-7d5c"/>
         <categoryLink name="Herald of the Mire" id="b854-df02-fc7b-2fc3" hidden="false" primary="false" targetId="391d-afd9-4ba5-6d48"/>
       </categoryLinks>
       <constraints>
@@ -4577,6 +4575,7 @@ You can include up to three of the following unit:
       </entryLinks>
       <infoLinks>
         <infoLink name="Shadow in the Warp" id="fb15-45eb-c1b1-0e9b" hidden="false" targetId="395b-a159-b293-27aa" type="rule"/>
+        <infoLink name="Lone Operative" id="f4cc-5b58-b516-735b" hidden="false" targetId="a8a0-8fe7-898-e0f3" type="rule"/>
         <infoLink name="Infiltrators" id="b033-7461-d89f-8f3c" hidden="false" targetId="c05d-f4c3-f091-4938" type="rule"/>
         <infoLink name="Stealth" id="968b-6c2e-a462-0ffe" hidden="false" targetId="bec5-4288-34a6-ccfa" type="rule"/>
         <infoLink name="Synapse" id="ffe3-37bf-edea-0abe" hidden="false" targetId="86aa-437f-260b-5cad" type="rule"/>
@@ -4716,12 +4715,12 @@ You can include up to three of the following unit:
 - Each time a friendly TYRANIDS model makes an attack that targets that unit, add 1 to the Wound roll.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Adrenal Hyperstimulation" id="ce46-ee10-8f4b-6405" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Predatory Overdrive" id="ce46-ee10-8f4b-6405" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model is eligible to declare a charge in a turn in which it Advanced. In addition, each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6&quot; to its Move characteristic.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Predatory Hyperplasia" id="198f-e253-074c-58d0" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+        <profile name="Unstoppable Horror" id="198f-e253-074c-58d0" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a Normal, Advance or Charge move, it can move horizontally through enemy models (excluding MONSTER and VEHICLE models) as if they were not there. In addition, this model is eligible to shoot and declare a charge in a turn in which it Fell Back.</characteristic>
           </characteristics>
