@@ -2673,7 +2673,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Neurotyrant_Test" id="1ae1-ed96-5100-eda5" collective="false" hidden="false" import="true" type="model">
+    <selectionEntry name="Neurotyrant" id="1ae1-ed96-5100-eda5" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Character" id="e7b8-74e9-3268-e5fa" hidden="false" primary="true" targetId="9cfd-1c32-585f-7d5c"/>
         <categoryLink name="Monster" id="853d-9869-05d1-9342" hidden="false" primary="false" targetId="9693-cf84-fe69-37a9"/>
