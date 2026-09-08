@@ -33,6 +33,7 @@
     <categoryEntry name="ma" id="f335-fdb1-cd7a-cf30" hidden="false"/>
     <categoryEntry name="Marsh Deceiver" id="ec19-c8d0-4ab1-c3f5" hidden="false"/>
     <categoryEntry name="Herald of the Mire" id="391d-afd9-4ba5-6d48" hidden="false"/>
+    <categoryEntry name="Blackwater Reaper" id="d95e-8ca7-cad3-32c8" hidden="false"/>
   </categoryEntries>
   <sharedProfiles>
     <profile name="Damaged: 1-4 Wounds Remaining" id="b4a8-7659-cc29-b18e" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -57,7 +58,7 @@
     </profile>
     <profile name="Feeder Tendrils" id="3f46-6dbb-d99b-4ae2" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model destroys an enemy Character model, you gain 1CP.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the first battle round, select one enemy CHARACTER unit. Until the end of the battle, each time this model makes an attack that targets that unit, you can re-roll the Hit roll and you can re-roll the Wound roll.</characteristic>
       </characteristics>
     </profile>
     <profile name="Chitinous Horrors (Aura)" id="533-9226-7e51-ee0" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -4687,6 +4688,7 @@ You can include up to three of the following unit:
       </modifierGroups>
       <profiles>
         <profile name="Herald of the Mire" id="342a-1e61-d144-1453" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+          <comment>Drowned Crusade - Hyper-adaptation</comment>
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
@@ -4720,6 +4722,7 @@ You can include up to three of the following unit:
           </characteristics>
         </profile>
         <profile name="Predatory Hyperplasia" id="198f-e253-074c-58d0" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <comment>Drowned Crusade - Hyper-adaptation</comment>
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a Normal, Advance or Charge move, it can move horizontally through enemy models (excluding MONSTER and VEHICLE models) as if they were not there. In addition, this model is eligible to shoot and declare a charge in a turn in which it Fell Back.</characteristic>
           </characteristics>
@@ -4754,6 +4757,138 @@ You can include up to three of the following unit:
               </profiles>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Blackwater Reaper" id="243e-39e6-a5f7-d63b" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Epic Hero" id="989a-b26d-ae40-4365" primary="true" targetId="4f3a-f0f7-6647-348d"/>
+        <categoryLink name="Faction: Tyranids" id="ae4b-09d1-270c-d71a" primary="false" targetId="d1d8-6ae0-1be7-e9e"/>
+        <categoryLink name="Character" id="e1ab-2f9d-56b2-cda0" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+        <categoryLink name="Great Devourer" id="7234-0c4f-9dd9-de59" primary="false" targetId="7850-cc5a-c191-b80d"/>
+        <categoryLink name="Infantry" id="49c1-4cf9-01d8-9cf4" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+        <categoryLink name="Vanguard Invader" id="f270-a62a-2e69-0134" primary="false" targetId="5ff0-d52d-e2b8-9de"/>
+        <categoryLink name="Blackwater Reaper" id="6d5f-1db3-fc0a-12f3" hidden="false" primary="false" targetId="d95e-8ca7-cad3-32c8"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="d7c7-6cd0-1cb1-8a2e" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="115"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Lictor claws and talons" id="c835-c915-1dd5-b3e6" hidden="false" targetId="dc9f-b3bb-9b44-cb92" type="selectionEntry">
+          <constraints>
+            <constraint id="4d16-acac-50ba-1a6d" field="selections" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="17af-5d47-b6cb-b768" field="selections" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Warlord" id="8f3a-cfd5-6e18-f8f2" hidden="true" import="true" sortIndex="2" targetId="ceab-62d9-31bf-7c61" type="selectionEntry">
+          <modifiers>
+            <modifier field="hidden" type="set" value="false">
+              <conditions>
+                <condition childId="f773-f91c-2999-c7e1" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Feeder Tendrils" id="65e3-2d59-e611-92bc" hidden="false" targetId="3f46-6dbb-d99b-4ae2" type="profile"/>
+        <infoLink name="Fights First" id="170b-cfc4-46ae-55d9" hidden="false" targetId="24-c886-e8ba-5a89" type="rule"/>
+        <infoLink name="Infiltrators" id="98b0-00e1-cd29-4ab6" hidden="false" targetId="c05d-f4c3-f091-4938" type="rule"/>
+        <infoLink name="Invulnerable Save (4+)" id="7d8d-c510-6ee1-da7c" hidden="false" targetId="5b77-29f8-7b77-75e3" type="profile"/>
+        <infoLink name="Lone Operative" id="0d7f-b91b-9c47-6d2d" hidden="false" targetId="a8a0-8fe7-898-e0f3" type="rule"/>
+        <infoLink name="Stealth" id="177d-d96f-0dd6-bff5" hidden="false" targetId="bec5-4288-34a6-ccfa" type="rule"/>
+        <infoLink name="Synapse" id="cc3d-02e4-2d0f-14cd" hidden="false" targetId="86aa-437f-260b-5cad" type="rule"/>
+      </infoLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <comment>Boarding Actions modifiers</comment>
+          <modifiers>
+            <modifier field="hidden" type="set" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="1d6e-2579-8e7f-1ed4" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="7a6f-7334-fa6c-290e" field="selections" includeChildSelections="true" scope="force" shared="true" type="lessThan" value="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier field="error" type="add" value="Cannot take 3 Lictor-like models in a Boarding Swarm">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="1d6e-2579-8e7f-1ed4" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="7a6f-7334-fa6c-290e" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                    <condition childId="6467-972f-c95c-d414" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                    <condition childId="de12-e6b6-16c1-47b0" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                    <condition childId="1ff-bd00-eca8-bff7" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <profiles>
+        <profile name="Deathleaper" id="25c2-fe0c-e7fc-780d" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">7</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fear of the Unseen (Aura)" id="c5dd-a880-9a77-e287" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While an enemy unit is within 6&quot; of this model, worsen the Leadership characteristic of models in that unit by 1. In addition, in the Battle-shock step of your opponent’s Command phase, if such an enemy unit is below its Starting Strength, it must take a Battle-shock test.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hunter Organism" id="8278-2c11-84e2-9af6" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model cannot be your Warlord</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier field="hidden" type="set" value="true">
+              <conditions>
+                <condition childId="f773-f91c-2999-c7e1" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Hyperpredatory Escalation" id="0195-9901-4097-4164" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <comment>Drowned Crusade - Hyper-adaptation</comment>
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model destroys an enemy CHARACTER model with a melee attack, until the end of the battle, add 1 to the Attacks and Damage characteristics of this model&apos;s melee weapons (to a maximum of +2 to each characteristic).</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Singular Prey" id="5564-ed79-e780-bd7f" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <comment>Drowned Crusade - Hyper-adaptation</comment>
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the first battle round, select one enemy CHARACTER unit. Until the end of the battle, each time this model makes an attack that targets that unit, you can re-roll the Hit roll and you can re-roll the Wound roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Adaptive Toxigenesis" id="7fba-4ceb-f4e3-eb89" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <comment>Drowned Crusade - Hyper-adaptation</comment>
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a melee attack that targets a CHARACTER unit, a successful unmodified Wound roll of 5+ scores a Critical Wound.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Crusade" id="0b16-a4cf-8a03-c1ac" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink name="Mighty Champions" id="b77c-b94a-3997-156e" hidden="false" import="true" targetId="f842-6e90-bc5a-80f1" type="selectionEntryGroup"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
