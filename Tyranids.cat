@@ -64,7 +64,7 @@
     <entryLink name="Lictor" id="deb6-2fc2-a1ad-cde1" hidden="false" import="true" targetId="da44-72c9-7a27-48aa" type="selectionEntry"/>
     <entryLink name="Deathleaper" id="8b6a-3050-501a-db63" hidden="false" import="true" targetId="bc36-92fe-ecc6-58b3" type="selectionEntry"/>
     <entryLink name="Maleceptor" id="5f55-69a5-636c-c8c1" hidden="false" import="true" targetId="2c2d-a2f9-61a8-a6c6" type="selectionEntry"/>
-    <entryLink name="Neurotyrant" id="1478-2392-ea1-45cd" hidden="false" import="true" targetId="1ae1-ed96-5100-eda5" type="selectionEntry"/>
+    <entryLink name="Marsh Deceiver" id="1478-2392-ea1-45cd" hidden="false" import="true" targetId="faa3-01d6-0d65-6521" type="selectionEntry"/>
     <entryLink name="Pyrovores" id="5d80-6ec1-93d4-b2fc" hidden="false" import="true" targetId="d2c6-bd0b-3205-3319" type="selectionEntry"/>
     <entryLink name="Haruspex" id="fd1-a697-de5-e1f9" hidden="false" import="true" targetId="6249-358f-27d7-ef60" type="selectionEntry"/>
     <entryLink name="Venomthropes" id="b25f-20ce-a25a-1642" hidden="false" import="true" targetId="b563-c6d3-d0e5-1b78" type="selectionEntry"/>
@@ -121,6 +121,7 @@
     <entryLink name="Ripper Swarms (Parasite of Mortrex)" id="06b7-a4b1-ab30-7dd9" hidden="false" import="true" targetId="4390-b3c7-64d2-c1b8" type="selectionEntry"/>
     <entryLink name="Mucolid Spores (Sporocyst)" id="4d65-b3c0-b075-e79e" hidden="false" import="true" targetId="9943-934a-221b-e0c0" type="selectionEntry"/>
     <entryLink name="The Red Terror" id="d1a5-352d-83ad-9b58" hidden="false" import="true" targetId="7173-1bd9-b60b-6555" type="selectionEntry"/>
+    <entryLink name="Neurolictor" id="c28b-3a24-7156-00fd" hidden="false" import="true" targetId="642f-9302-4fdc-ab68" type="selectionEntry"/>
   </entryLinks>
   <infoLinks>
     <infoLink name="Synapse" id="6d46-599b-97c8-9bb6" hidden="false" targetId="86aa-437f-260b-5cad" type="rule"/>
