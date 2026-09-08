@@ -4895,9 +4895,9 @@ You can include up to three of the following unit:
     </selectionEntry>
     <selectionEntry name="The Reawakened Hunger" id="a63b-9420-2bbc-9ab3" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="Character" id="9afb-2254-d7ce-b50b" hidden="false" primary="true" targetId="9cfd-1c32-585f-7d5c"/>
+        <categoryLink name="Character" id="9afb-2254-d7ce-b50b" hidden="false" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
         <categoryLink name="Monster" id="1f2e-a0c7-cb6a-4d05" hidden="false" primary="false" targetId="9693-cf84-fe69-37a9"/>
-        <categoryLink name="Epic Hero" id="0959-9a58-dbe4-b106" hidden="false" primary="false" targetId="4f3a-f0f7-6647-348d"/>
+        <categoryLink name="Epic Hero" id="0959-9a58-dbe4-b106" hidden="false" primary="true" targetId="4f3a-f0f7-6647-348d"/>
         <categoryLink name="Psyker" id="a2ac-8fc4-b85e-fd4b" hidden="false" primary="false" targetId="13bf-2bee-3ae0-b414"/>
         <categoryLink name="Synapse" id="3679-7d3a-5b03-8d05" hidden="false" primary="false" targetId="4129-a453-686a-d38a"/>
         <categoryLink name="Great Devourer" id="5488-d8b2-402a-4fc1" hidden="false" primary="false" targetId="7850-cc5a-c191-b80d"/>
