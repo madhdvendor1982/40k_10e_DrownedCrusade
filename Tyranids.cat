@@ -121,7 +121,7 @@
     <entryLink name="Ripper Swarms (Parasite of Mortrex)" id="06b7-a4b1-ab30-7dd9" hidden="false" import="true" targetId="4390-b3c7-64d2-c1b8" type="selectionEntry"/>
     <entryLink name="Mucolid Spores (Sporocyst)" id="4d65-b3c0-b075-e79e" hidden="false" import="true" targetId="9943-934a-221b-e0c0" type="selectionEntry"/>
     <entryLink name="The Red Terror" id="d1a5-352d-83ad-9b58" hidden="false" import="true" targetId="7173-1bd9-b60b-6555" type="selectionEntry"/>
-    <entryLink name="Neurolictor" id="c28b-3a24-7156-00fd" hidden="false" import="true" targetId="642f-9302-4fdc-ab68" type="selectionEntry"/>
+    <entryLink name="Herald of the Mire" id="c28b-3a24-7156-00fd" hidden="false" import="true" targetId="4d6a-db8f-8c72-8657" type="selectionEntry"/>
   </entryLinks>
   <infoLinks>
     <infoLink name="Synapse" id="6d46-599b-97c8-9bb6" hidden="false" targetId="86aa-437f-260b-5cad" type="rule"/>
