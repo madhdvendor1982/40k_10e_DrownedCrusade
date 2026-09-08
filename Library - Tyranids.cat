@@ -34,6 +34,7 @@
     <categoryEntry name="Marsh Deceiver" id="ec19-c8d0-4ab1-c3f5" hidden="false"/>
     <categoryEntry name="Herald of the Mire" id="391d-afd9-4ba5-6d48" hidden="false"/>
     <categoryEntry name="Blackwater Reaper" id="d95e-8ca7-cad3-32c8" hidden="false"/>
+    <categoryEntry name="Reawakened Hunger" id="6344-9b13-538c-0e85" hidden="false"/>
   </categoryEntries>
   <sharedProfiles>
     <profile name="Damaged: 1-4 Wounds Remaining" id="b4a8-7659-cc29-b18e" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -4891,6 +4892,135 @@ You can include up to three of the following unit:
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="The Reawakened Hunger" id="a63b-9420-2bbc-9ab3" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="Character" id="9afb-2254-d7ce-b50b" hidden="false" primary="true" targetId="9cfd-1c32-585f-7d5c"/>
+        <categoryLink name="Monster" id="1f2e-a0c7-cb6a-4d05" hidden="false" primary="false" targetId="9693-cf84-fe69-37a9"/>
+        <categoryLink name="Epic Hero" id="0959-9a58-dbe4-b106" hidden="false" primary="false" targetId="4f3a-f0f7-6647-348d"/>
+        <categoryLink name="Psyker" id="a2ac-8fc4-b85e-fd4b" hidden="false" primary="false" targetId="13bf-2bee-3ae0-b414"/>
+        <categoryLink name="Synapse" id="3679-7d3a-5b03-8d05" hidden="false" primary="false" targetId="4129-a453-686a-d38a"/>
+        <categoryLink name="Great Devourer" id="5488-d8b2-402a-4fc1" hidden="false" primary="false" targetId="7850-cc5a-c191-b80d"/>
+        <categoryLink name="Reawakened Hunger" id="9356-9fb6-e46c-b6a4" hidden="false" primary="false" targetId="6344-9b13-538c-0e85"/>
+        <categoryLink name="Faction: Tyranids" id="04a9-6224-2aef-5ebb" hidden="false" primary="false" targetId="d1d8-6ae0-1be7-e9e"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="7aa5-93d1-f3f4-333e" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="220"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Synapse" id="b70c-f053-b0f2-d283" hidden="false" targetId="86aa-437f-260b-5cad" type="rule"/>
+        <infoLink name="Deadly Demise" id="2e6e-20c1-ccec-2fe8" hidden="false" targetId="b68a-5ded-65ac-98c" type="rule">
+          <modifiers>
+            <modifier field="name" type="append" value="D6"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <profiles>
+        <profile name="The Reawakened Hunger" id="6d39-4780-942c-2117" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">11</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">14</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Major Node" id="4906-9ed2-04af-7379" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly TETHYS unit is within 9&quot; of this model, that unit is always considered to be within Synapse Range of your army. Once per battle round, when a friendly TETHYS unit within 12&quot; of this model takes a Battle-shock or Leadership test, you can re-roll that test.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="The Reawakened Shadow" id="6294-5d8b-cc54-6427" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, at the start of any Command phase, every enemy unit within 12&quot; takes a Battle-shock test at -1 Leadership.
+
+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Amalgam of the Kept" id="ce90-cc69-43e6-9b04" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has the Feel No Pain 5+ ability against mortal wounds and Psychic Attacks.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Uncounted" id="7cef-f7ae-6baf-b184" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model destroys a DROWNED CULT or COVEN character, it regains up to D3 lost wounds. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="The Hundred Hands" id="e17f-4208-4eb0-6835" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="29ec-cd62-e46d-44b6" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="4d53-4cf3-0bf3-1755" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="➤ The Hundred Hands - Strike" id="20f4-4479-8d1c-45c7" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">7</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">9</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="➤ The Hundred Hands - Sweep" id="ebd3-a0be-6872-a39b" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">12</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="The Uncounting Scream" id="b726-ed1c-dd0d-7e34" hidden="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink name="Ranged Weapon" id="bdb2-3d12-9651-f783" hidden="false" primary="false" targetId="eeda-8544-a2f3-3fab"/>
+          </categoryLinks>
+          <constraints>
+            <constraint id="f813-7f20-35e1-9e78" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="0c02-0476-1940-03a4" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Psychic" id="e26d-49bd-0af7-9512" hidden="false" targetId="e9c4-2bb8-12ee-cd1b" type="rule"/>
+            <infoLink name="Assault" id="ba8a-a74f-a746-1733" hidden="false" targetId="fc8a-8c24-bae9-cc1c" type="rule"/>
+          </infoLinks>
+          <profiles>
+            <profile name="The Uncounting Scream" id="f35b-faae-e438-4e6a" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="The Uncounting Scream" id="a122-0670-07b9-d0a9" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">After this model has finished making its attacks with this weapon, each enemy unit that lost one or more wounds as a result of those attacks must take a Battle-shock test, subtracting 1 from that test. Each time an attack made with this weapon targets a Battle-shocked unit, that attack has the [DEVASTATING WOUNDS] ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
