@@ -133,6 +133,7 @@
         </profile>
       </profiles>
     </entryLink>
+    <entryLink name="Neurotyrant" id="6131-ab51-07d0-e3bc" hidden="false" import="true" targetId="1ae1-ed96-5100-eda5" type="selectionEntry"/>
   </entryLinks>
   <infoLinks>
     <infoLink name="Synapse" id="6d46-599b-97c8-9bb6" hidden="false" targetId="86aa-437f-260b-5cad" type="rule"/>
